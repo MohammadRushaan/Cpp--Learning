@@ -1,3 +1,10 @@
+/*Topics covered: datatypes
+                  namespace
+                  typedef
+                  cout
+
+*/
+
 #include <iostream>
 #include <vector>
 
@@ -11,6 +18,8 @@ Used to write multiple paragraphs
 typedef std::vector<std::pair<std::string, int>> pairlist_t;
 // this is a datatype, with alias pairlist_t , we usually add _t after the alias
 typedef std::string text_t;
+
+using newText_t = std::string;
 
 namespace first{
     int x=1;
@@ -54,6 +63,9 @@ int main()
                 New identifier for an existing datatype
                 helps with readability and reduces types
                 need to include header file vector
+                Use when there is clear benfit
+                replaced with 'using' (works better with templates)
+                using alias = datatype
 
     */
 
@@ -63,7 +75,12 @@ int main()
     std::string text1="Hello";
     text_t text2="Hello2";
 
+    cout<< text2 <<endl;
     //both will be of same datatype, this helps imrpove readability and reduce typos
+
+    newText_t text3= "Hello3";
+
+    cout<< text3 <<endl;
 
     return 0;
 
