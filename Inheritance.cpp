@@ -35,7 +35,7 @@ class Cat : public Animal
 int main()
 {
     //Inheritance: A class can recieve attributes and methods from another class
-    //              Children classes inherit from parent class
+    //              Children classes inherit from parent class only
     //              Helps to reuse similar code found within multiple classes
 
     Dog dog1;
