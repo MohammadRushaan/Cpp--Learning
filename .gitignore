@@ -1,1 +1,22 @@
+# Compiled binaries
 *.exe
+*.out
+*.app
+
+# Object files
+*.o
+*.obj
+
+# Libraries
+*.lib
+*.a
+*.dll
+*.so
+*.dylib
+
+# Debug / build output
+*.gch
+*.pch
+*.d
+.vs/
+build/
